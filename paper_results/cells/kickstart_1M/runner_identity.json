@@ -1,0 +1,39 @@
+{
+ "runner": "<BASE>/runner/lr_cell_freshlr.py",
+ "runner_sha256": "4098ddd58f8bbecb1f6be44d68a04dc25df204674e48a2e95a6a5871cff9325b",
+ "lr": 0.00025,
+ "fresh_lr": 0.0001,
+ "fresh_lr_explicit": true,
+ "forwarded_argv": [
+  "run",
+  "--cell",
+  "kickstart_1M",
+  "--seeds",
+  "700-724",
+  "--chunk-size",
+  "5",
+  "--matmul-precision",
+  "highest",
+  "--allow-official-seeds",
+  "--out-dir",
+  "<BASE>/counted/kickstart_1M_lr2.5e-4_flr1e-4_kl0.01",
+  "--bc-dir",
+  "<BASE>/tars-ppo/checkpoints/bc_h950_33660f6",
+  "--critic-warmup-updates",
+  "10",
+  "--kickstart-coef",
+  "0.01"
+ ],
+ "repo": "<BASE>/tars-ppo",
+ "python_executable": "<BASE>/tars-ppo/.venv/bin/python",
+ "python_version": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+ "jax_version": "0.12.0.1",
+ "jaxlib_version": "0.12.0.1",
+ "jax_backend": "gpu",
+ "jax_devices": [
+  "cuda:0"
+ ],
+ "device_kinds": [
+  "NVIDIA GeForce RTX 3060"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "seeds": [
+  930
+ ],
+ "fresh_seeds": [
+  1930
+ ],
+ "hidden_size": 905,
+ "param_count": 999125,
+ "blocks": 4,
+ "tasks": 3,
+ "K": 100,
+ "batch_size": 2048,
+ "platform": "cpu",
+ "git_commit": "fcc85d934acf7c2a9fb227abe4921987000e49dc",
+ "stream_compile_s": 5.730107646999386,
+ "stream_run_s": 131.0613536919991,
+ "stream_s_per_update": 0.32765338422999774,
+ "rss_after_stream_gb": 0.800048828125,
+ "fresh_compile_s": 5.646344040000258,
+ "fresh_run_s": 106.86512363200018,
+ "fresh_tasks_timed": 3,
+ "fresh_s_per_update": 0.3562170787733339,
+ "peak_rss_gb": 0.9255867004394531
+}

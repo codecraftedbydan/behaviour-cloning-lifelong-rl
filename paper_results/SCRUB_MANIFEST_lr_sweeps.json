@@ -1,0 +1,711 @@
+{
+ "asset": "lr_sweeps_scrubbed.tgz",
+ "sha256": "fa717f68df1af38cc991a80ab63d509aeeac787292eb0a3823a0bc00ee8658d1",
+ "files": 160,
+ "changed_files": [
+  {
+   "file": "sweeps_20261110/frozen_pretrained_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "38c611b4e8998a48595dca3b029fb7bd25289ab98f5ccec4de352645a328ef34",
+   "new_sha256": "99c065cd6a42b30a116be782a6d49aee7474646d9760973b8d3b1cce48d06031",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/frozen_pretrained_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "b6106f4a26b3fffe6b2d539fbff82aca87507ea88a73d7d1f0cc548fbb9fd283",
+   "new_sha256": "76a0fa12142ff5d5acb6fa75e225f7fc0fa7dc03d428aaa387d03a9c4126f0b4",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/frozen_pretrained_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "85125e0becc1ea32d2072dea94471566ed3f2f871e748a286435a11774ce8905",
+   "new_sha256": "e1d0e92200d9bae8f79634e7e5337b7be2d51cff207d4b04af1ecc903db3092e",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/frozen_pretrained_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "1b37efd70abac477fac34ef9f8e0219c9dd76fc8b767c091c6cd0b3f369cf822",
+   "new_sha256": "d8fa8d30b4fd8653b190ec1263da5444fa42e2480f066f52f27133da194b4d32",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/frozen_random_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "ac155bf542169aff424e50c42ec5b5a017f341a17430c4b9e0bc824f90bffc7a",
+   "new_sha256": "f707d56a424a22ae8cccf97d745f02b4e5d7e0e26a7fc23275f70e3292a964d2",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/frozen_random_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "e0be610ad033830ad94827ca67267e91343b8fa9fbfd6946842dd365ef10f9e4",
+   "new_sha256": "7543046619634ad632b3ccf51c52d6e5885d457a07f4d506a4a299ad3c52cd28",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/frozen_random_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "16b279313c0fd286d2dc3e5f8cfef4d2817a80ea3d02a901e068622bf0052c5c",
+   "new_sha256": "eb9f9121b7cd3f8f18fc0cc56621206d46732f07e1e2237fb0cdf40ebf0b7569",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/frozen_random_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "923860352ce31f7379001cb803a53c1537d06175dd1a07e5483ee65a11b61b9d",
+   "new_sha256": "42efc6c6397765e7cfa6d80ce7dbebc090f8975745a9e4f4e5edd4eb2a23dd76",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_pretrained_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "99ce5220a56f808283e56c149219db81c16f5aafc51294a705810931a6e6bfe8",
+   "new_sha256": "0f61992ff7d96abcc559f4c2a19323d5ddba477265ab7d39eea400f01a0f3cd5",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_pretrained_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "cf15b12de71c98d51e76dea86a3a2146d2823eaa4c116a765d2daeb9e101886e",
+   "new_sha256": "3b43d3d78b66d9827bfacfb82b5f0e592bccaca90f211db5adcec5f8f9ea7097",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_pretrained_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "02b0daac8e2dfd0a437ae495c0b98123a75356fbea9325cd709b3280638b78c2",
+   "new_sha256": "89e2c871f4d0d9b071389cdd6dd78eb88f57b0b032c332e1104933d178ed96a9",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_pretrained_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "eb64102f002a91bfa4e4b07f862904f724cfb052b21120407095f05606c82ee3",
+   "new_sha256": "0f4d0ab7fcefccf9a4ff690f7c75c5e1719d93d86da44e043f7fef524bd78061",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_scratch_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "3fd9a2a07c029afe1ef772ee23820d92fd4655288f79c7a97f524f9132a141ba",
+   "new_sha256": "41e649fc0b20d9b3c8d81f8257f7bd56e87016945ff6da2b3d55b963fcec5c6d",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_scratch_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "6dee8e967aae09bca33b43457a5cf4116f601e83e3efb9db6a91d6bd742f82eb",
+   "new_sha256": "798873c31c79ecbd379454267ff3b86b232214f9c33f8785628775d562389a70",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_scratch_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "029c6b23e7889a03aa28e39de762e7e11b44602483759b95a2fdecc2604967d2",
+   "new_sha256": "a9ad4aa1f6d7091187e8386b1a0dc9094b427fb5193847c10786982e8e6485f6",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/ln_scratch_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "f94c229a7a42a206e9c486b066164e8c4a44f0c60b5f3a921cf2c049d34d4043",
+   "new_sha256": "90c0667b7c87832c115d96c8b4ab223843bb9058d5b7ad67d04ce60cb6f07980",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/lora_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "744dbb2adca778e950740b53c6f26a4bb12931a9f054814fc22c3fb9e9f51c58",
+   "new_sha256": "5f891bdaa109fdce9c9f3365323f1cc3a6726d4dbab723d5f24279fe303e25b3",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/lora_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "6d4c74cb5665e4e9cc9cdd12a26c8cfef59050e4ad6a5e0bd5f5a40d53a05f60",
+   "new_sha256": "33a7bf252f7ac2b45b38267c6972470021f96838ce440d246f79edd299533312",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/lora_1M_lr2e-3/runner_identity.json",
+   "old_sha256": "695d0c06f1c1f2a6dd4f225d3d6d6ba9bf5b16b1a6c83e12d4d98530bc3d5f06",
+   "new_sha256": "fa1afbe8c53faccb9c7a17705ae458e0dcff0a36d74b5fa8a31f6a100a095c92",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/lora_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "e8c4935e5b236074103fa85fb6f212497d723869a19ea697998840a21dc2e77b",
+   "new_sha256": "ba71154609354e9b2d6facced9983fa61e5c13a933f7b5fd18674e7f5b1f6d92",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_pretrained_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "35cca5d88a38e5638a7e159da5f799fb25326355deb45f73478e3788d2507c32",
+   "new_sha256": "3d307ff96762bde8e95f9e0e346f7cecbc4e94d2d1071a067e23bfa136c10cd0",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_pretrained_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "a7a34c6ddf81abd5d7b1bb996a307ddb3cc9490002925c9e6f05f95bfb2b7381",
+   "new_sha256": "f992b594cb53e59df2abb9ad516a1551928cc9e5060fadcb4e64db258a064530",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_pretrained_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "e3fe371b829857d62dd1f16210bfc53822cce80928058c6c8e53d35c4e38c559",
+   "new_sha256": "701f1aeff3aa002ff3e7caba0293ccdfe89f6a31ec9c121802005ec4ecb5455c",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_pretrained_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "8d319211ffe3a683d08395c044c2d944e62af54176db724b3786aebae6769da3",
+   "new_sha256": "e1d894475008197cb40f356a618d5410d954087df1eae5eb8985968fea9dd483",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_scratch_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "8a138201d2e015d5e13d79856d9baa6b43ae9a4f5de312267dee54fd4b0dfd43",
+   "new_sha256": "72264b289e02c8c0c518c0d01a1f76273067cc433fae58f351cf2e0a83e57c8d",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_scratch_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "1c0321fd1675acd09d7893cca765511b3ec7c0d4c1b42887cdc1338d08cfd8ba",
+   "new_sha256": "91d515ea046268b9b8547c20519d60fd4bf1ce49946a9a225d01712ec5c04192",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_scratch_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "c9cac036e4f5d195f8824a801533c706a5323d76a477d5d76cdfeb73e04ec89a",
+   "new_sha256": "0b27aeb461520ba0e87001932fb3032175fc67168849c8f67b95357cf50f3e2e",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pqn_scratch_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "d471ed2a1cb7ae0629199e597c447fc4da00d0e299b33c8c166b33006a120aba",
+   "new_sha256": "cef10671591439844b8636876414c4019d2a0b34328d8ff954acb562c49217a5",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pretrained_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "e528ec7541f0e7ae6dd55dd54077579e2f69f23cb5bfcc174b7e68538f10e0be",
+   "new_sha256": "dedd50ad36b0b00f274c16c996c3758a65ba4be96e2a3557afee7decfd90f439",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pretrained_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "248c5778f31ee7ac98c38cfe9ae6407196568d4cc8b7120da46e4d749c11704e",
+   "new_sha256": "960850f0cf194543492f1c596c75f6c72501ffa8b1ebdecde7e21bf7e552637d",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pretrained_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "d50c1d34f6915a7f73d34bd15270ce4d301e1f7067528c840cb2c43a898d6ab5",
+   "new_sha256": "b74dd2243dc7e899e509c96b62e44104f20c22362e0e5aa6d9c1b40d7d8872ac",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/pretrained_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "e6befeddff65386ab9f328fc1d154ca0ded3edeb3fbe8dc17a47a0234205d829",
+   "new_sha256": "7a36c23286df143dbe5540b10d32917c4aa8281d7e5aaaf72b315e1e8cdf0855",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/scratch_1M_lr1e-3/runner_identity.json",
+   "old_sha256": "9d226e5b24e473da4b8a0c795b5e0be9c2d51b3eb24a0d51c90196cd6e7df659",
+   "new_sha256": "ea00c2102e4ebee61228ddebc819710dd01d5e97af2fa9eb8715a2427e2248e7",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/scratch_1M_lr1e-4/runner_identity.json",
+   "old_sha256": "3bfa4797dca2956fe309bd1f9f25ee80ae0cdc7a25eb84ca41773b6aa9665b6c",
+   "new_sha256": "874f28d51de49415a50cc9708bed1968e2018f22b50bd7cae850a7a18562e24a",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/scratch_1M_lr2.5e-4/runner_identity.json",
+   "old_sha256": "95c3ac2f139efe0e7899a4f01cae495d23311689d524b0f74c502756aca7cf6c",
+   "new_sha256": "008a60e0753dd52bb271eb3fa1f1a70dc2b8279b53008c9606d7061d241f7139",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "sweeps_20261110/scratch_1M_lr5e-4/runner_identity.json",
+   "old_sha256": "603e4094105756af49e302d82f5fc0b0e0af308154d76350e7b10ef1cb799f65",
+   "new_sha256": "fff16b4e13be26593e09274e0036bc20c5021f24b2205358c2cbc96f976b699e",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "kickstart_20261112/kickstart_1M_lr2.5e-4_kl0.01/runner_identity.json",
+   "old_sha256": "6d49c3f5493d193f4d8521cac8de5c02a7eaa0fb795ffda8fd26c5351d857144",
+   "new_sha256": "54310bab3b6d8621a808fdd445e1aa68567043e5b8e909615751e954f702f244",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "kickstart_20261112/kickstart_1M_lr2.5e-4_kl0.03/runner_identity.json",
+   "old_sha256": "f5bff2e8553b612967068161f06dcb57548a67cb465c40d6471023bf31e79c3b",
+   "new_sha256": "1c1caaaf8265bf9aaf2e08df91169432f5725f871fd5ee23a1cf5958cbc90b9d",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "kickstart_20261112/kickstart_1M_lr2.5e-4_kl0.1/runner_identity.json",
+   "old_sha256": "b05eb45856057ca6643e8672b57819f1272b0716e209017e49e7e87939147119",
+   "new_sha256": "248bfbc7915026ae217fdb6800cb27ae0858df350c35fdf4d4c11123039dff61",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "kickstart_20261112/kickstart_1M_lr2.5e-4_kl0.3/runner_identity.json",
+   "old_sha256": "cad6a9f1d346a8e3a78c90ee731ba3a4adc2b80c8a62a6b24f8b0388e22122c4",
+   "new_sha256": "c75b7645b02aeaeeef999d3496ff09db15bc6b9970a067a50cf13405b9d1827a",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  }
+ ]
+}

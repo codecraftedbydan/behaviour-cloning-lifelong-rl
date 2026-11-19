@@ -1,0 +1,177 @@
+{
+ "cell": "ln_scratch_1M",
+ "cell_spec": {
+  "arm": "scratch",
+  "size": "1M",
+  "layer_norm": true,
+  "reset_arm": "none",
+  "fresh_from": null,
+  "number": "13-14"
+ },
+ "seeds": [
+  700,
+  701,
+  702,
+  703,
+  704,
+  705,
+  706,
+  707,
+  708,
+  709,
+  710,
+  711,
+  712,
+  713,
+  714,
+  715,
+  716,
+  717,
+  718,
+  719,
+  720,
+  721,
+  722,
+  723,
+  724
+ ],
+ "fresh_seeds": [
+  800,
+  801,
+  802,
+  803,
+  804,
+  805,
+  806,
+  807,
+  808,
+  809,
+  810,
+  811,
+  812,
+  813,
+  814,
+  815,
+  816,
+  817,
+  818,
+  819,
+  820,
+  821,
+  822,
+  823,
+  824
+ ],
+ "chunk_size": 5,
+ "chunk_layout": [
+  [
+   700,
+   701,
+   702,
+   703,
+   704
+  ],
+  [
+   705,
+   706,
+   707,
+   708,
+   709
+  ],
+  [
+   710,
+   711,
+   712,
+   713,
+   714
+  ],
+  [
+   715,
+   716,
+   717,
+   718,
+   719
+  ],
+  [
+   720,
+   721,
+   722,
+   723,
+   724
+  ]
+ ],
+ "config": "{\"env_name\": \"Gridworld-8\", \"total_timesteps\": 500000, \"num_envs\": 32, \"num_steps\": 64, \"gamma\": 0.99, \"gae_lambda\": 0.95, \"clip_eps\": 0.2, \"update_epochs\": 4, \"num_minibatches\": 4, \"lr\": 0.0005, \"anneal_lr\": false, \"ent_coef\": 0.01, \"vf_coef\": 0.5, \"max_grad_norm\": 0.5, \"clip_value\": false, \"bootstrap_on_truncation\": true, \"normalize_value\": true, \"value_norm_beta\": 0.99, \"reset_adam_on_task_switch\": false, \"task_switch_updates\": [], \"hidden_size\": 950, \"num_layers\": 2, \"activation\": \"relu\", \"shared_trunk\": true, \"layer_norm\": true, \"critic_warmup_updates\": 0, \"kickstart_coef\": 0.0, \"freeze_trunk\": false, \"adam_reset_at_handover\": true, \"eval_every\": 16, \"eval_episodes\": 10, \"eval_max_steps\": null, \"eval_greedy\": true, \"dormant_tau\": 0.025}",
+ "fresh_config": "{\"env_name\": \"Gridworld-8\", \"total_timesteps\": 500000, \"num_envs\": 32, \"num_steps\": 64, \"gamma\": 0.99, \"gae_lambda\": 0.95, \"clip_eps\": 0.2, \"update_epochs\": 4, \"num_minibatches\": 4, \"lr\": 0.0001, \"anneal_lr\": false, \"ent_coef\": 0.01, \"vf_coef\": 0.5, \"max_grad_norm\": 0.5, \"clip_value\": false, \"bootstrap_on_truncation\": true, \"normalize_value\": true, \"value_norm_beta\": 0.99, \"reset_adam_on_task_switch\": false, \"task_switch_updates\": [], \"hidden_size\": 950, \"num_layers\": 2, \"activation\": \"relu\", \"shared_trunk\": true, \"layer_norm\": true, \"critic_warmup_updates\": 0, \"kickstart_coef\": 0.0, \"freeze_trunk\": false, \"adam_reset_at_handover\": true, \"eval_every\": 16, \"eval_episodes\": 10, \"eval_max_steps\": null, \"eval_greedy\": true, \"dormant_tau\": 0.025}",
+ "stream_config": "{\"stream_seed\": 0, \"size\": 8, \"wall_density\": 0.25, \"min_dist\": 4, \"max_steps\": 64, \"num_new_tasks\": 40, \"revisit_every\": 3, \"block_updates\": 100, \"shift_kinds\": [\"goal\", \"dynamics\", \"obs\"], \"slip_choices\": [0.0], \"head_probe_every\": 5, \"shared_obs_layout\": true, \"shared_action_perm\": true}",
+ "matmul_precision": "highest",
+ "device_platform": "gpu",
+ "fresh": true,
+ "fresh_from_cell": null,
+ "fresh_from_dir": null,
+ "reset_arm": "none",
+ "status": "complete",
+ "chunks": [
+  {
+   "file": "chunk_000.npz",
+   "seeds": [
+    700,
+    701,
+    702,
+    703,
+    704
+   ],
+   "sha256": "8ad45f9be306500771503b4caea6ee75f773bd1608ab75c695f246192dade3ee"
+  },
+  {
+   "file": "chunk_001.npz",
+   "seeds": [
+    705,
+    706,
+    707,
+    708,
+    709
+   ],
+   "sha256": "b3464b80ad9e5bcdb95ed8d6eee11deb88004affea9568896bf4f425dabb9ef4"
+  },
+  {
+   "file": "chunk_002.npz",
+   "seeds": [
+    710,
+    711,
+    712,
+    713,
+    714
+   ],
+   "sha256": "d13bd0db48941e30c956fd24e0a47b94e15f35418fffb95c0254ed05b0696819"
+  },
+  {
+   "file": "chunk_003.npz",
+   "seeds": [
+    715,
+    716,
+    717,
+    718,
+    719
+   ],
+   "sha256": "cde95b44e273bdafc9624826a906e1cf9cb70373968bc10faf960661c69d9fbb"
+  },
+  {
+   "file": "chunk_004.npz",
+   "seeds": [
+    720,
+    721,
+    722,
+    723,
+    724
+   ],
+   "sha256": "c28dc48ab372f8a20ca294c2f8313ff2559ddcba8a2849f6bca6622ce196de22"
+  }
+ ],
+ "bc_tree_hash_pinned": false,
+ "ranking_binding": true,
+ "ranking_binding_reason": "binding: reserved stage1 block seeds",
+ "git_commit_full": "33660f6e2f20f289ec6403dc0a2ab4faf365dfd2",
+ "git_dirty": false,
+ "allow_dirty": false,
+ "source_tree_hash": "6a52b120525a0ed64e232e7283597b7b257d70c550f20424bc6dbc4828381415"
+}

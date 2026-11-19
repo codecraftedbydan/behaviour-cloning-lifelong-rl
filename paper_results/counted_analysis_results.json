@@ -1,0 +1,344 @@
+{
+ "method": "Counted-cell analysis v2 (tars-test-rules \u00a74, \u00a76, \u00a77, \u00a79). Reuses the loader of h1prime.py (e63d7b30,\npassed review with one fix 14 Nov) unchanged by import; h1prime.py stays as the passed record.\nFix (review, 14 Nov): \u00a74 primary for per-task metrics = IQM across seeds x tasks with the rliable stratified\nbootstrap (for each task column, seeds resampled with replacement; paired comparisons use the same seed draw\nfor every cell in the comparison), 10k resamples, rng seed 0. Late window = new tasks 21-40 by position (20\ncolumns). Forgetting (H3) = analyze()'s per-revisit forgetting, 13 revisit columns per seed; gap 0.05.\nAUC_rel gaps 0.093. Sensitivities: per-seed mean then IQM over seeds, paired seed bootstrap (h1prime.py).\nH4 needs the size line, which has no counted cells, so it is not computable. Zero-shot section is report-only\nfrom zero_shot_counted_700-724.json (729c4aba...).",
+ "inputs": {
+  "h1prime_py": "e63d7b30",
+  "zero_shot_json": "729c4aba0395f4f2b7e66b77546ccf7530f878a5a0fbbed999eac6fff8c57efb"
+ },
+ "H1prime": {
+  "D": 0.04460192739963531,
+  "ci95": [
+   0.00023809362351901093,
+   0.08755920256674293
+  ],
+  "ci_excludes_zero": true,
+  "meets_gap": false,
+  "supported": false,
+  "sens_per_seed_mean": {
+   "D": 0.026464553979726912,
+   "ci95": [
+    -0.03394619937126454,
+    0.08868424880963095
+   ]
+  }
+ },
+ "H3": {
+  "lora_minus_fullFT": {
+   "D": 0.453253640353314,
+   "ci95": [
+    0.34300702261778476,
+    0.5579137802124023
+   ],
+   "ci_excludes_zero": true,
+   "meets_gap": false,
+   "supported": false,
+   "sens_per_seed_mean": {
+    "D": 0.2601786936528584,
+    "ci95": [
+     0.16603835846721776,
+     0.3369308413309459
+    ]
+   }
+  },
+  "frozen_pretrained_minus_fullFT": {
+   "D": 0.0,
+   "ci95": [
+    -0.0299407609401305,
+    0.0
+   ],
+   "ci_excludes_zero": false,
+   "meets_gap": false,
+   "supported": false,
+   "sens_per_seed_mean": {
+    "D": -0.047158279009824666,
+    "ci95": [
+     -0.11799052519911139,
+     0.01828848724005491
+    ]
+   }
+  },
+  "note": "forgetting (stream_metrics.forgetting) = eval at end of the task's previous block minus eval just before the revisit; higher = more forgetting; H3 supported if the difference is <= -0.05 with CI excluding 0"
+ },
+ "H4": "not computable: the size line (0.1M/0.3M/3-10M) has no counted cells",
+ "H5": {
+  "D": 0.018196962152622287,
+  "ci95": [
+   -0.012899378914615595,
+   0.051990724569669654
+  ],
+  "ci_excludes_zero": false,
+  "meets_gap": false,
+  "supported": false,
+  "sens_per_seed_mean": {
+   "D": 0.007971859877356047,
+   "ci95": [
+    -0.05850440153399871,
+    0.08587827520185293
+   ]
+  },
+  "D_ppo_ln": {
+   "D": 0.01805906128883361,
+   "ci95": [
+    -0.010280498200654927,
+    0.049251310557126955
+   ],
+   "ci_excludes_zero": false,
+   "meets_gap": false,
+   "supported": false,
+   "sens_per_seed_mean": {
+    "D": -0.001745439492739087,
+    "ci95": [
+     -0.057018873668633986,
+     0.06073409192837204
+    ]
+   }
+  },
+  "D_pqn": {
+   "D": -0.00013790086378867583,
+   "ci95": [
+    -0.01698295900842677,
+    0.016152887423784335
+   ],
+   "ci_excludes_zero": false,
+   "meets_gap": false,
+   "supported": false,
+   "sens_per_seed_mean": {
+    "D": -0.009717299370095134,
+    "ci95": [
+     -0.03717827840367906,
+     0.015282685957768428
+    ]
+   }
+  }
+ },
+ "H6": {
+  "D": -0.10932742393016814,
+  "ci95": [
+   -0.14892555174231523,
+   -0.07346274629533293
+  ],
+  "ci_excludes_zero": true,
+  "meets_gap": false,
+  "supported": false,
+  "sens_per_seed_mean": {
+   "D": -0.17564973464378952,
+   "ci95": [
+    -0.24202684015035622,
+    -0.11125455705019152
+   ]
+  }
+ },
+ "forgetting_per_cell": {
+  "scratch_1M": 0.0,
+  "pretrained_1M": 0.0,
+  "frozen_pretrained_1M": 0.0,
+  "frozen_random_1M": 0.1472392612439723,
+  "lora_1M": 0.453253640353314,
+  "kickstart_1M": 0.08533278089359495,
+  "ln_scratch_1M": 0.0,
+  "ln_pretrained_1M": 0.0,
+  "pqn_scratch_1M": 0.0,
+  "pqn_pretrained_1M": 0.0
+ },
+ "zero_shot": {
+  "scratch_1M_r2": {
+   "zero_shot_new_late": 0.0038461539034660044,
+   "end_of_block_new_late": 0.23437910698927367,
+   "bwt_revisit_late": -0.019230768084526062,
+   "zero_shot_new": 0.011538461996958805,
+   "end_of_block_new": 0.2806510879443242,
+   "bwt_final": -0.1755433277735814,
+   "zero_shot_revisit": 0.13017752136175448
+  },
+  "pretrained_1M": {
+   "zero_shot_new_late": 0.0,
+   "end_of_block_new_late": 0.2960392294021753,
+   "bwt_revisit_late": 0.0,
+   "zero_shot_new": 0.0076923076636516135,
+   "end_of_block_new": 0.2999418263251965,
+   "bwt_final": -0.19723777752185948,
+   "zero_shot_revisit": 0.1538461595773697
+  },
+  "frozen_random_1M": {
+   "zero_shot_new_late": 0.0,
+   "end_of_block_new_late": 0.15769231233459252,
+   "bwt_revisit_late": -0.04102563796899258,
+   "zero_shot_new": 0.0,
+   "end_of_block_new": 0.20576923053998214,
+   "bwt_final": -0.17357002595472618,
+   "zero_shot_revisit": 0.04142012103245808
+  },
+  "frozen_pretrained_1M": {
+   "zero_shot_new_late": 0.0,
+   "end_of_block_new_late": 0.03461538513119404,
+   "bwt_revisit_late": 0.0,
+   "zero_shot_new": 0.0,
+   "end_of_block_new": 0.10571105720905158,
+   "bwt_final": -0.08271522881716666,
+   "zero_shot_revisit": 0.029585799345603354
+  },
+  "lora_1M": {
+   "zero_shot_new_late": 0.011538461710398015,
+   "end_of_block_new_late": 0.5144606622365805,
+   "bwt_revisit_late": -0.6257595434402808,
+   "zero_shot_new": 0.023076923707356818,
+   "end_of_block_new": 0.5031531774080716,
+   "bwt_final": -0.47690072285353086,
+   "zero_shot_revisit": 0.04142012103245808
+  },
+  "ln_scratch_1M": {
+   "zero_shot_new_late": 0.0,
+   "end_of_block_new_late": 0.19615385165581337,
+   "bwt_revisit_late": -0.03461538461538462,
+   "zero_shot_new": 0.0038461539034660044,
+   "end_of_block_new": 0.18461538622012505,
+   "bwt_final": -0.14990138455020371,
+   "zero_shot_revisit": 0.005917159983744988
+  },
+  "ln_pretrained_1M": {
+   "zero_shot_new_late": 0.0,
+   "end_of_block_new_late": 0.2189980149269104,
+   "bwt_revisit_late": -0.041025641025641026,
+   "zero_shot_new": 0.009615384758665012,
+   "end_of_block_new": 0.21147938989675963,
+   "bwt_final": -0.17356821912280201,
+   "zero_shot_revisit": 0.023668639361858368
+  },
+  "pqn_scratch_1M": {
+   "zero_shot_new_late": 0.0,
+   "end_of_block_new_late": 0.1846153885126114,
+   "bwt_revisit_late": -0.1794871794871795,
+   "zero_shot_new": 0.0038461539034660044,
+   "end_of_block_new": 0.2019230746305906,
+   "bwt_final": -0.187259170195525,
+   "zero_shot_revisit": 0.0
+  },
+  "pqn_pretrained_1M": {
+   "zero_shot_new_late": 0.0,
+   "end_of_block_new_late": 0.18449903250886843,
+   "bwt_revisit_late": -0.1410256429360463,
+   "zero_shot_new": 0.005769230855199007,
+   "end_of_block_new": 0.16911075321527627,
+   "bwt_final": -0.1616126121383682,
+   "zero_shot_revisit": 0.0
+  },
+  "kickstart_1M": {
+   "zero_shot_new_late": 0.011538461710398015,
+   "end_of_block_new_late": 0.31526999519421506,
+   "bwt_revisit_late": -0.15641025526401323,
+   "zero_shot_new": 0.01538461590042481,
+   "end_of_block_new": 0.3056546174562894,
+   "bwt_final": -0.1893491185393324,
+   "zero_shot_revisit": 0.10059172373551589
+  }
+ },
+ "lora_per_seed": {
+  "end_of_block_new_late": [
+   0.25,
+   0.44999998807907104,
+   0.8453670740127563,
+   0.5,
+   0.5,
+   0.398487389087677,
+   0.44848743081092834,
+   0.4000000059604645,
+   0.3985099196434021,
+   0.800000011920929,
+   0.6455072164535522,
+   0.3499999940395355,
+   0.6499999761581421,
+   0.5,
+   0.6499999761581421,
+   0.49850994348526,
+   0.3985099196434021,
+   0.699999988079071,
+   0.800000011920929,
+   0.5,
+   0.5,
+   0.550000011920929,
+   0.5469740629196167,
+   0.550000011920929,
+   0.49850994348526
+  ],
+  "bwt_revisit_late": [
+   0.0,
+   -0.6666666666666666,
+   -0.9999999701976776,
+   -0.7499999850988388,
+   NaN,
+   -1.0000000794728596,
+   0.0,
+   -1.0000000596046448,
+   0.0,
+   -0.5,
+   -0.9848740100860596,
+   -1.0000000596046448,
+   -0.6666667064030966,
+   0.0,
+   NaN,
+   -0.5,
+   0.0,
+   -0.3333333333333333,
+   -1.0000001192092896,
+   0.0,
+   -0.6666667064030966,
+   -0.4,
+   -1.0,
+   -0.6666666865348816,
+   -1.0
+  ],
+  "bwt_final": [
+   -0.333333337918306,
+   -0.4358974542373266,
+   -0.7668549082218072,
+   -0.38461538767203307,
+   -0.4102564270679767,
+   -0.435121768560165,
+   -0.30691662965676725,
+   -0.4102564438795432,
+   -0.4864153541051425,
+   -0.6923077259308252,
+   -0.5866520221416767,
+   -0.3846154060119238,
+   -0.6138563691041409,
+   -0.4871794932927841,
+   -0.48717949634943253,
+   -0.3582102335416354,
+   -0.3582102259000142,
+   -0.589743605026832,
+   -0.5399898351767124,
+   -0.6153846428944514,
+   -0.6915320096871792,
+   -0.5641025778574821,
+   -0.511268770083403,
+   -0.4358974557656508,
+   -0.4094922985786047
+  ],
+  "late_auc_rel": [
+   -0.5195847749710083,
+   -0.5407500863075256,
+   -0.4009232521057129,
+   -0.4992271959781647,
+   -0.4936099052429199,
+   -0.47588109970092773,
+   -0.4612143635749817,
+   -0.5022635459899902,
+   -0.553299605846405,
+   -0.31815576553344727,
+   -0.44276857376098633,
+   -0.4673828184604645,
+   -0.3359927237033844,
+   -0.6201174259185791,
+   -0.44351521134376526,
+   -0.4744395613670349,
+   -0.5099815726280212,
+   -0.4706651568412781,
+   -0.4074556231498718,
+   -0.48017555475234985,
+   -0.47718971967697144,
+   -0.4926895201206207,
+   -0.5286886692047119,
+   -0.4122008681297302,
+   -0.5313547849655151
+  ]
+ }
+}

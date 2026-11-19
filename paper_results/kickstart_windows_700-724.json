@@ -1,0 +1,470 @@
+{
+ "cell": "../cells/kickstart_1M",
+ "chunk_sha256": {
+  "chunk_000.npz": "a75cf60da57f3a98a85e3c54a9736b5c4b6027f3b87d3f9c541b8ba58b4dc01d",
+  "chunk_001.npz": "7348687f1ee938320044f10491549fc8bf7c1cb4a2aed845aa7a0959b5babb1e",
+  "chunk_002.npz": "ffd2fe70e465c9f51bae1b2bf768612ba310646e3eba13dcb55fa3e87bd8d906",
+  "chunk_003.npz": "28f5085cdd684368e49e9fc98b006c5f07f2d51cadb725fe9327c0278784aa66",
+  "chunk_004.npz": "dca6ad11f6e5a6681e0338e8e538ab556fb202a5cc8a274bfec6264b5fa6b8a8"
+ },
+ "gate_rule": "KL on while every block so far trained a task with both shared obs layout and shared action perm; off for good from the first block that did not",
+ "n_seeds": 25,
+ "mismatched_update_sums": [],
+ "per_seed": [
+  {
+   "seed": 700,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 701,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 702,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 703,
+   "window_blocks": 2,
+   "first_off_block_1based": 3,
+   "window_tasks": [
+    1,
+    2
+   ],
+   "window_new_blocks": 2,
+   "effective_updates": 190,
+   "effective_updates_check": 190,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 704,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 705,
+   "window_blocks": 2,
+   "first_off_block_1based": 3,
+   "window_tasks": [
+    1,
+    2
+   ],
+   "window_new_blocks": 2,
+   "effective_updates": 190,
+   "effective_updates_check": 190,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 706,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 707,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 708,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 709,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 710,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 711,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 712,
+   "window_blocks": 2,
+   "first_off_block_1based": 3,
+   "window_tasks": [
+    1,
+    2
+   ],
+   "window_new_blocks": 2,
+   "effective_updates": 190,
+   "effective_updates_check": 190,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 713,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 714,
+   "window_blocks": 2,
+   "first_off_block_1based": 3,
+   "window_tasks": [
+    1,
+    2
+   ],
+   "window_new_blocks": 2,
+   "effective_updates": 190,
+   "effective_updates_check": 190,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 715,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 716,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 717,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 718,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 719,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 720,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 721,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 722,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 723,
+   "window_blocks": 1,
+   "first_off_block_1based": 2,
+   "window_tasks": [
+    1
+   ],
+   "window_new_blocks": 1,
+   "effective_updates": 90,
+   "effective_updates_check": 90,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  },
+  {
+   "seed": 724,
+   "window_blocks": 2,
+   "first_off_block_1based": 3,
+   "window_tasks": [
+    1,
+    2
+   ],
+   "window_new_blocks": 2,
+   "effective_updates": 190,
+   "effective_updates_check": 190,
+   "revisit_effective_updates": 0,
+   "coef_in_window": [
+    0.009999999776482582
+   ],
+   "coef_outside": [
+    0.0
+   ]
+  }
+ ]
+}

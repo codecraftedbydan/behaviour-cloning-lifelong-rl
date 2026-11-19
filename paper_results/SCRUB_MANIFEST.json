@@ -1,0 +1,453 @@
+{
+ "placeholder": {
+  "replaced": "absolute run directory on the training machine",
+  "with": "<BASE>"
+ },
+ "bundles": [
+  {
+   "cell": "frozen_pretrained_1M",
+   "original": "frozen_pretrained_1M_review_20261114T080447Z.tgz",
+   "original_sha256": "a4c51d2b78a5db589c2a9b5a7c611fb91650781617134df2fc36f23eb64573b4",
+   "scrubbed": "frozen_pretrained_1M_review_20261114T080447Z_scrubbed.tgz",
+   "scrubbed_sha256": "f6180da8de4fa954f2f76e9ca0e2eda6055bfb0ed1b4c09c1da00b0db9dc2633"
+  },
+  {
+   "cell": "frozen_random_1M",
+   "original": "frozen_random_1M_review_20261113T220823Z.tgz",
+   "original_sha256": "f934f6cffda986ea573c87f5de2f994e68062b627373ae937d5a65a97af1fb93",
+   "scrubbed": "frozen_random_1M_review_20261113T220823Z_scrubbed.tgz",
+   "scrubbed_sha256": "61ab84f42b4fdec25b59cc56da198c11409e97f8b493b3ff1817e46189239a7c"
+  },
+  {
+   "cell": "kickstart_1M",
+   "original": "kickstart_1M_review_20261114T080451Z.tgz",
+   "original_sha256": "ed28a231e91860f6aaf618f26556e61a0b754a1bdcf2dce474584fed07437288",
+   "scrubbed": "kickstart_1M_review_20261114T080451Z_scrubbed.tgz",
+   "scrubbed_sha256": "de6e2745042ee652a1555f76aa57ce9adcdb60de8c4cdfa520fb3ca7f9200708"
+  },
+  {
+   "cell": "ln_pretrained_1M",
+   "original": "ln_pretrained_1M_review_20261114T080449Z.tgz",
+   "original_sha256": "9154b9de80e16cd1ed24864b12246445fea661f203ce02a44b1b0a503f72bff4",
+   "scrubbed": "ln_pretrained_1M_review_20261114T080449Z_scrubbed.tgz",
+   "scrubbed_sha256": "0303de287d2ccc485933a09d9c803e320beba7496b79314dc62a4f510ac24d45"
+  },
+  {
+   "cell": "ln_scratch_1M",
+   "original": "ln_scratch_1M_review_20261114T080448Z.tgz",
+   "original_sha256": "b2f6d1e902f6a91139890169426f4cc2cf90307e2102847c5d8be1281d41827f",
+   "scrubbed": "ln_scratch_1M_review_20261114T080448Z_scrubbed.tgz",
+   "scrubbed_sha256": "907fb84b267af225784c790f033e2cb659c2c88b955853c66e4fae409386c163"
+  },
+  {
+   "cell": "lora_1M",
+   "original": "lora_1M_review_20261114T080447Z.tgz",
+   "original_sha256": "72afbe9364d9d4fbc665834e19473f9dbeeb0eb77af640d734b7f046a7bb0c2a",
+   "scrubbed": "lora_1M_review_20261114T080447Z_scrubbed.tgz",
+   "scrubbed_sha256": "c096b8c2ddd81045b6698512714fbe26d76f04b76f5327d20c166969d9bd9b25"
+  },
+  {
+   "cell": "pqn_pretrained_1M",
+   "original": "pqn_pretrained_1M_review_20261114T080451Z.tgz",
+   "original_sha256": "89cb23a0056435e8b7d446ee15691e33717d02593e23e501d2a95be8e9dcaac3",
+   "scrubbed": "pqn_pretrained_1M_review_20261114T080451Z_scrubbed.tgz",
+   "scrubbed_sha256": "ce9302636b34ed17fc7fafdd2169c4aa9c76a5b0672da5fe0670ef64a545a373"
+  },
+  {
+   "cell": "pqn_scratch_1M",
+   "original": "pqn_scratch_1M_review_20261114T080450Z.tgz",
+   "original_sha256": "e1a4efa6e57ace72336f4bea529ced31a3543d45a1b485007561e782526ce961",
+   "scrubbed": "pqn_scratch_1M_review_20261114T080450Z_scrubbed.tgz",
+   "scrubbed_sha256": "c2751b5f8efd690d36c47e88d54f657f2479d3733be4f99967de4ae7f1c27a58"
+  },
+  {
+   "cell": "pretrained_1M",
+   "original": "pretrained_1M_review_20261113T210219Z.tgz",
+   "original_sha256": "7c0f521919fe87247d0b1f42e60f76bb991f32ecdc9948b8299e7553ba8ea8a7",
+   "scrubbed": "pretrained_1M_review_20261113T210219Z_scrubbed.tgz",
+   "scrubbed_sha256": "78ed16c94d608143ac089cbe4a937e7c2f115b8b73fbfd4369df74e1ba8cff84"
+  },
+  {
+   "cell": "scratch_1M_r2",
+   "original": "scratch_1M_r2_review_20261113T194711Z.tgz",
+   "original_sha256": "9a5697b588bdb5b576300a95ca9fefd45fb3bc89e7759f3c74ee254529c5c8b9",
+   "scrubbed": "scratch_1M_r2_review_20261113T194711Z_scrubbed.tgz",
+   "scrubbed_sha256": "80ef7c3ea21d52b7f16351c89608534ae60e4d27b28bd2b101562c834e8e3f03"
+  }
+ ],
+ "changed_files": [
+  {
+   "file": "frozen_pretrained_1M/frozen_pretrained_1M/runner_identity.json",
+   "old_sha256": "6ebc85ec3ecb8ec335ebc2cc711777ba9ee4b319f2f830da6aa8d3e464cd8308",
+   "new_sha256": "56b0cd677d32ffb550343e7c8c01ab1becac7c5e2f1f7915aa3dfbc920171797",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "frozen_pretrained_1M/counted_queue.log.snapshot",
+   "old_sha256": "3116786248f792d7285dc14d4b3b875b0c2af50d2821ac87327b3425f587e66f",
+   "new_sha256": "c6dd7d223cafbbfe84a4e35c0ef30ebb5444b38c1af22ab754a15d9403895903",
+   "replaced_occurrences": 92
+  },
+  {
+   "file": "frozen_pretrained_1M/frozen_pretrained_1M/sha256sums.txt",
+   "old_sha256": "7389f773bb2072ab89ec4516feac9b25783c42abadd04bcddc4d5d3084f7cc0b",
+   "new_sha256": "668f72b193f341a573c06b0ab816223ed1e8f7951f60e648790ae10fb456da77",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "frozen_pretrained_1M/other_sha256sums.txt",
+   "old_sha256": "2616130ab5d81c97530420fc60acee2611bdacf22cee97d645d8f1ccdf39dcf4",
+   "new_sha256": "c16402fde55e11ef2006b07c0e237be8b277399344f8d00b6330da8c52eefca7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "frozen_random_1M/counted_queue.log.snapshot",
+   "old_sha256": "6e5a31d78c6b0f72e8b4ce6f88fe50f50de41c7d6fa65528d8bf4acaa6d3a840",
+   "new_sha256": "0ed15ac39b14f7776ff63effb7181e91ed199e33d920c3679c7686df138cc142",
+   "replaced_occurrences": 41
+  },
+  {
+   "file": "frozen_random_1M/frozen_random_1M/runner_identity.json",
+   "old_sha256": "9ef17088e88e093d8275ef1c68497e25edfd6afc277a1e20900dba0bab37c6ae",
+   "new_sha256": "856fd4fb6683bc4280b0c2864533ed1f8948f0500c77ef0ac7ef98b8cdc6fada",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "frozen_random_1M/frozen_random_1M/sha256sums.txt",
+   "old_sha256": "40228dd280122dc7a8b7a1e6d79fa2d76b7005d376b56e9014b68c7d91a1fe38",
+   "new_sha256": "48272860f9d9d1ca4ce93155e03bb58f9eb65f915d3a2359a64867c3ec94a31d",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "frozen_random_1M/other_sha256sums.txt",
+   "old_sha256": "45d1407c8e6784aa85b7aed59fef7e640e34abc25e69fde550bb619499c6653d",
+   "new_sha256": "2680fe8a32b964a1d96c14abeef4b38ed21e852a416c874a5b6c9c1922498665",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "kickstart_1M/kickstart_1M/runner_identity.json",
+   "old_sha256": "9d8844f088cae1a39bf7410f76be8f8fd132957b9af1110d817191564cf65ae0",
+   "new_sha256": "78d4ff1c0c0e2a180f2371b70883d8b3a74c3cf59c2a1b80561eebb273024f0b",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "kickstart_1M/counted_queue.log.snapshot",
+   "old_sha256": "3116786248f792d7285dc14d4b3b875b0c2af50d2821ac87327b3425f587e66f",
+   "new_sha256": "c6dd7d223cafbbfe84a4e35c0ef30ebb5444b38c1af22ab754a15d9403895903",
+   "replaced_occurrences": 92
+  },
+  {
+   "file": "kickstart_1M/kickstart_1M/sha256sums.txt",
+   "old_sha256": "7dffbc1a2c8b4a892b278a60585ced2e8d51f01e794f24cac36db62165722394",
+   "new_sha256": "ee545f8d460c94daf1b4f9f555ef6183dbfe3335884d2a80459ea58544f18f81",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "kickstart_1M/other_sha256sums.txt",
+   "old_sha256": "2616130ab5d81c97530420fc60acee2611bdacf22cee97d645d8f1ccdf39dcf4",
+   "new_sha256": "c16402fde55e11ef2006b07c0e237be8b277399344f8d00b6330da8c52eefca7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "ln_pretrained_1M/counted_queue.log.snapshot",
+   "old_sha256": "3116786248f792d7285dc14d4b3b875b0c2af50d2821ac87327b3425f587e66f",
+   "new_sha256": "c6dd7d223cafbbfe84a4e35c0ef30ebb5444b38c1af22ab754a15d9403895903",
+   "replaced_occurrences": 92
+  },
+  {
+   "file": "ln_pretrained_1M/ln_pretrained_1M/runner_identity.json",
+   "old_sha256": "0281fde3c17e50807e941b26fd316a7ab323bfd2526ae514be74e7c7157f6a8c",
+   "new_sha256": "cd7066992732b63247eb21737bb31e96b9d7764c1aad16ad20c109a08503819c",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "ln_pretrained_1M/ln_pretrained_1M/sha256sums.txt",
+   "old_sha256": "9c693f2e2e486627ba748e8f5dcc78f43fb0d4c5461d974d34f99346993ef7d5",
+   "new_sha256": "c66a84fdf513793ce6542fcff1184cdcfa6fe51d589f50b8cb9e91bae16dd8ad",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "ln_pretrained_1M/other_sha256sums.txt",
+   "old_sha256": "2616130ab5d81c97530420fc60acee2611bdacf22cee97d645d8f1ccdf39dcf4",
+   "new_sha256": "c16402fde55e11ef2006b07c0e237be8b277399344f8d00b6330da8c52eefca7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "ln_scratch_1M/counted_queue.log.snapshot",
+   "old_sha256": "3116786248f792d7285dc14d4b3b875b0c2af50d2821ac87327b3425f587e66f",
+   "new_sha256": "c6dd7d223cafbbfe84a4e35c0ef30ebb5444b38c1af22ab754a15d9403895903",
+   "replaced_occurrences": 92
+  },
+  {
+   "file": "ln_scratch_1M/ln_scratch_1M/runner_identity.json",
+   "old_sha256": "9adb8237ae16e7bddfe90678bbfb2e5c986f33662ba9d3ce14a9471dc715ad19",
+   "new_sha256": "85926aa51334d2bcb5eebde87b1c38593fca2e4ed2e58e7c8095f0f6660e8ba5",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "ln_scratch_1M/ln_scratch_1M/sha256sums.txt",
+   "old_sha256": "5c1ff7530c7e3de6dcff2578c8e9fbe78422df77c975051d09fcd43437ac56c4",
+   "new_sha256": "98e10bf9906b210951bc027c1212f9bebc966d1c119aac4c9453b8fbddb79bf7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "ln_scratch_1M/other_sha256sums.txt",
+   "old_sha256": "2616130ab5d81c97530420fc60acee2611bdacf22cee97d645d8f1ccdf39dcf4",
+   "new_sha256": "c16402fde55e11ef2006b07c0e237be8b277399344f8d00b6330da8c52eefca7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "lora_1M/lora_1M/runner_identity.json",
+   "old_sha256": "0fd0a31eb2c5b4f529f799c241b97d4e88e2a0f09075683770256db22c9febdb",
+   "new_sha256": "7e65e5aabf0a9481c90f001170e2b841a32bdc70b319cb794361db9611622504",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "lora_1M/counted_queue.log.snapshot",
+   "old_sha256": "3116786248f792d7285dc14d4b3b875b0c2af50d2821ac87327b3425f587e66f",
+   "new_sha256": "c6dd7d223cafbbfe84a4e35c0ef30ebb5444b38c1af22ab754a15d9403895903",
+   "replaced_occurrences": 92
+  },
+  {
+   "file": "lora_1M/lora_1M/sha256sums.txt",
+   "old_sha256": "8797e795aca1c81d7c6790999412a0f9d563e27ec1bbbb5f82a4f6f6b4981cde",
+   "new_sha256": "4e7c52ba8ae07f51a7fc02e400478aa23e5bd641b5556a89d36c24c142563198",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "lora_1M/other_sha256sums.txt",
+   "old_sha256": "2616130ab5d81c97530420fc60acee2611bdacf22cee97d645d8f1ccdf39dcf4",
+   "new_sha256": "c16402fde55e11ef2006b07c0e237be8b277399344f8d00b6330da8c52eefca7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "pqn_pretrained_1M/pqn_pretrained_1M/runner_identity.json",
+   "old_sha256": "a1b21b35d53c0fe97ba7e19c0fe603d6e33af93f8dbf98cb2b6dc9b09fa03fdc",
+   "new_sha256": "cb907de7e14523b29fc128033c412aaf39b4bb42f3f04c5d0c3d7ba4c6935628",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "pqn_pretrained_1M/counted_queue.log.snapshot",
+   "old_sha256": "3116786248f792d7285dc14d4b3b875b0c2af50d2821ac87327b3425f587e66f",
+   "new_sha256": "c6dd7d223cafbbfe84a4e35c0ef30ebb5444b38c1af22ab754a15d9403895903",
+   "replaced_occurrences": 92
+  },
+  {
+   "file": "pqn_pretrained_1M/pqn_pretrained_1M/sha256sums.txt",
+   "old_sha256": "d85f742972124244c8c822046e32d438b26a6d02324f8752c9776e5c097dc765",
+   "new_sha256": "4c61366bbc3c0f73f361e3664394d56bb8e7a8d8c4be5c5632d3141d043bf511",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "pqn_pretrained_1M/other_sha256sums.txt",
+   "old_sha256": "2616130ab5d81c97530420fc60acee2611bdacf22cee97d645d8f1ccdf39dcf4",
+   "new_sha256": "c16402fde55e11ef2006b07c0e237be8b277399344f8d00b6330da8c52eefca7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "pqn_scratch_1M/counted_queue.log.snapshot",
+   "old_sha256": "3116786248f792d7285dc14d4b3b875b0c2af50d2821ac87327b3425f587e66f",
+   "new_sha256": "c6dd7d223cafbbfe84a4e35c0ef30ebb5444b38c1af22ab754a15d9403895903",
+   "replaced_occurrences": 92
+  },
+  {
+   "file": "pqn_scratch_1M/pqn_scratch_1M/runner_identity.json",
+   "old_sha256": "e0823d39ea7313615cd7943ee3673892d40eefe718a3abc6ff8b343c5a73fd58",
+   "new_sha256": "b04f723ff5e9a998189c25f1a1685a444b81687c4804cac053cc9258cfaf6198",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "pqn_scratch_1M/pqn_scratch_1M/sha256sums.txt",
+   "old_sha256": "bf60ed5636a335a2c9d601406622252816b44315c87b9a41371e14db3ddeb0f5",
+   "new_sha256": "f4afd354d079ea5cc98edce6da1c45cd956b041dce8ce766e7cd80dbd5c295b3",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "pqn_scratch_1M/other_sha256sums.txt",
+   "old_sha256": "2616130ab5d81c97530420fc60acee2611bdacf22cee97d645d8f1ccdf39dcf4",
+   "new_sha256": "c16402fde55e11ef2006b07c0e237be8b277399344f8d00b6330da8c52eefca7",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "pretrained_1M/counted_queue.log.snapshot",
+   "old_sha256": "de57f33c0ee81b0f5732d79dd84d350233fa135fcee82c7141eb1d4496f80f9f",
+   "new_sha256": "c2da8884703b2645d8d314835e98a8f1f93f43fd53e5e8ba7b18be2b719180e3",
+   "replaced_occurrences": 32
+  },
+  {
+   "file": "pretrained_1M/pretrained_1M/runner_identity.json",
+   "old_sha256": "d887e2fa987bead8cf4b17f9fa4d8e300d068c26d3cb36727fc37f5592bcf5ff",
+   "new_sha256": "84fd5d18634a2707887582a060f42bd3609a7deea05a4f69c83721bf10abe9c2",
+   "replaced_occurrences": 5,
+   "json_check": {
+    "changed_leaves": 5,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.forwarded_argv[13]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "pretrained_1M/pretrained_1M/sha256sums.txt",
+   "old_sha256": "d79f95f9a0e9d899195ab278d97497a8aff1a5cc6ecfec7b5f719d518276a830",
+   "new_sha256": "4bc5984c710fac2dfc8c20afba173d65ce554d7efeb7bad84e15befa5d302e63",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "pretrained_1M/other_sha256sums.txt",
+   "old_sha256": "7c0f0de062072fcbd01284e52acbb4889eef6167af93007d879df3bf4e5d7780",
+   "new_sha256": "00008023fb30632763b2fe59807fd4463db1002f2b3b5c6163368c04c1ffa677",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "scratch_1M_r2/partial/runner_identity.json",
+   "old_sha256": "bc0a641c0a6017611b02917707dfb6eeb094766b224f3ddeb2b61f388a33069f",
+   "new_sha256": "e0868fe439b7fb4513b0fc0fc688ccae0094fbd3f8b1d1140289b870490934d1",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "scratch_1M_r2/counted_queue.log.snapshot",
+   "old_sha256": "84cde4d3a752ed61cfd1a27235d1ef388ba38c145deff3c6bb1a3c6af19a2873",
+   "new_sha256": "0fdbae723c6a6193b42f0b1f89496ee7847fde892f1ac505d7ab6f4d00db126c",
+   "replaced_occurrences": 25
+  },
+  {
+   "file": "scratch_1M_r2/scratch_1M_r2/runner_identity.json",
+   "old_sha256": "d9c96fc0400ce2ac212cf0f259d215d8882f2f4be4da62426ea4b23ed56ad20b",
+   "new_sha256": "f61d43ae07a238d05191d99fd61e552457ce665f7fd857816cc2dc750cf7fc8d",
+   "replaced_occurrences": 4,
+   "json_check": {
+    "changed_leaves": 4,
+    "all_changed_leaves_are_path_strings": true,
+    "numbers_unchanged": true,
+    "changed_paths": [
+     "$.runner",
+     "$.forwarded_argv[11]",
+     "$.repo",
+     "$.python_executable"
+    ]
+   }
+  },
+  {
+   "file": "scratch_1M_r2/scratch_1M_r2/sha256sums.txt",
+   "old_sha256": "bc32134006b366469f36d38900b19121d9c1e021c9c5d2fb00e4f730c990a106",
+   "new_sha256": "d6aac74ac626a9e1ed325455e70982b1f4e97a9299855cd546070aaad3d4edb9",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  },
+  {
+   "file": "scratch_1M_r2/other_sha256sums.txt",
+   "old_sha256": "983392aaaf758f11fdb330c9be38ef5538d98a89aa3762383ebb3cf77b146585",
+   "new_sha256": "4d535cf056b4f35e5d54733e1a9fba3ff44f2653739e706de5026b755c86958d",
+   "reason": "regenerated after scrubbing the files it lists; chunk lines unchanged"
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "rule": "per-env 95% bootstrap CI of IQM diff contains 0, AND NOT (ours lower on all 4)",
+ "seeds": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209
+ ],
+ "envs": [
+  {
+   "env": "Breakout-MinAtar",
+   "budget": 9994240,
+   "ours_iqm": 59.04,
+   "ours_ci": [
+    47.19,
+    64.89
+   ],
+   "ref_iqm": 66.09,
+   "ref_ci": [
+    51.24,
+    78.03
+   ],
+   "ours_mean": 55.59,
+   "ref_mean": 64.14,
+   "diff": -7.05,
+   "diff_ci": [
+    -23.59,
+    8.31
+   ],
+   "rel_diff_pct": -10.7,
+   "ci_contains_0": true,
+   "ours_final": [
+    65.3,
+    66.6,
+    55.0,
+    66.65,
+    39.43,
+    57.52,
+    25.31,
+    54.0,
+    70.27,
+    55.85
+   ],
+   "ref_final": [
+    65.1,
+    72.06,
+    87.7,
+    54.35,
+    85.17,
+    30.98,
+    82.04,
+    40.99,
+    60.61,
+    62.41
+   ],
+   "ours_run_s": 735.9,
+   "ref_run_s": 585.3
+  },
+  {
+   "env": "Asterix-MinAtar",
+   "budget": 9994240,
+   "ours_iqm": 9.04,
+   "ours_ci": [
+    8.14,
+    10.06
+   ],
+   "ref_iqm": 9.55,
+   "ref_ci": [
+    8.59,
+    10.56
+   ],
+   "ours_mean": 9.12,
+   "ref_mean": 9.65,
+   "diff": -0.51,
+   "diff_ci": [
+    -1.8,
+    0.84
+   ],
+   "rel_diff_pct": -5.4,
+   "ci_contains_0": true,
+   "ours_final": [
+    9.69,
+    8.99,
+    9.62,
+    7.4,
+    7.44,
+    8.09,
+    11.29,
+    8.55,
+    9.29,
+    10.82
+   ],
+   "ref_final": [
+    9.43,
+    9.3,
+    9.78,
+    7.64,
+    10.38,
+    9.56,
+    10.88,
+    7.6,
+    8.87,
+    13.07
+   ],
+   "ours_run_s": 1041.2,
+   "ref_run_s": 844.8
+  },
+  {
+   "env": "SpaceInvaders-MinAtar",
+   "budget": 9994240,
+   "ours_iqm": 168.15,
+   "ours_ci": [
+    164.62,
+    172.38
+   ],
+   "ref_iqm": 168.85,
+   "ref_ci": [
+    165.48,
+    172.45
+   ],
+   "ours_mean": 168.29,
+   "ref_mean": 169.29,
+   "diff": -0.71,
+   "diff_ci": [
+    -6.14,
+    4.68
+   ],
+   "rel_diff_pct": -0.4,
+   "ci_contains_0": true,
+   "ours_final": [
+    165.49,
+    174.85,
+    174.5,
+    166.63,
+    165.68,
+    170.39,
+    161.82,
+    174.71,
+    162.68,
+    166.19
+   ],
+   "ref_final": [
+    170.18,
+    171.72,
+    168.14,
+    178.49,
+    164.9,
+    165.12,
+    173.21,
+    164.65,
+    163.4,
+    173.06
+   ],
+   "ours_run_s": 839.7,
+   "ref_run_s": 768.2
+  },
+  {
+   "env": "Freeway-MinAtar",
+   "budget": 9994240,
+   "ours_iqm": 59.92,
+   "ours_ci": [
+    59.24,
+    60.6
+   ],
+   "ref_iqm": 59.37,
+   "ref_ci": [
+    58.69,
+    59.97
+   ],
+   "ours_mean": 59.95,
+   "ref_mean": 59.29,
+   "diff": 0.55,
+   "diff_ci": [
+    -0.36,
+    1.48
+   ],
+   "rel_diff_pct": 0.9,
+   "ci_contains_0": true,
+   "ours_final": [
+    60.36,
+    60.52,
+    60.86,
+    59.34,
+    59.28,
+    58.53,
+    61.7,
+    59.69,
+    60.33,
+    58.86
+   ],
+   "ref_final": [
+    57.08,
+    59.33,
+    59.73,
+    58.56,
+    60.48,
+    59.22,
+    58.64,
+    59.69,
+    60.52,
+    59.61
+   ],
+   "ours_run_s": 1873.7,
+   "ref_run_s": 1309.9
+  }
+ ],
+ "all_ci_contain_0": true,
+ "ours_lower_on_all": false,
+ "ours_higher_on_all": false,
+ "verdict": "PASS"
+}

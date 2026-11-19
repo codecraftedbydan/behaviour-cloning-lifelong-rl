@@ -1,0 +1,134 @@
+{
+ "method": "Pick the kickstart KL coefficient for kickstart_1M (stream LR fixed at 2.5e-4, scratch_1M's pick).\nRule as for LR (rank_lr_raw.py bf77d747): argmax over the coef grid of IQM (seeds 750-759) of the stream\nagent's RAW late AUC (new tasks 21-40). Edge flagged; tie -> nearest log-centre, then lower value.\nFresh agents are not used for the choice. Same per-trial integrity checks, plus kickstart_coef in\nconfig, fresh kickstart_coef 0, and kickstart effective updates > 0 for every seed. Report only:\nscratch_1M / pretrained_1M at 2.5e-4 from the LR sweep for context.",
+ "lr": 0.00025,
+ "grid": [
+  0.01,
+  0.03,
+  0.1,
+  0.3
+ ],
+ "chosen_coef": 0.01,
+ "ranked_coef": [
+  0.01,
+  0.03,
+  0.1,
+  0.3
+ ],
+ "edge": true,
+ "tie_broken": false,
+ "trials": {
+  "0.01": {
+   "raw_late_auc_stream": {
+    "iqm": 0.2596495971083641,
+    "ci95": [
+     0.18212434394905966,
+     0.3171429360906283
+    ],
+    "mean": 0.2527674850076437,
+    "n": 10
+   },
+   "kickstart_effective_updates": [
+    90,
+    90,
+    90,
+    90,
+    90,
+    190,
+    90,
+    190,
+    90,
+    90
+   ]
+  },
+  "0.03": {
+   "raw_late_auc_stream": {
+    "iqm": 0.23750230421622595,
+    "ci95": [
+     0.1862185579414169,
+     0.29471729199091595
+    ],
+    "mean": 0.24507965594530107,
+    "n": 10
+   },
+   "kickstart_effective_updates": [
+    90,
+    90,
+    90,
+    90,
+    90,
+    190,
+    90,
+    190,
+    90,
+    90
+   ]
+  },
+  "0.1": {
+   "raw_late_auc_stream": {
+    "iqm": 0.22372432301441827,
+    "ci95": [
+     0.20179052154223123,
+     0.26003584377467626
+    ],
+    "mean": 0.23053889721632004,
+    "n": 10
+   },
+   "kickstart_effective_updates": [
+    90,
+    90,
+    90,
+    90,
+    90,
+    190,
+    90,
+    190,
+    90,
+    90
+   ]
+  },
+  "0.3": {
+   "raw_late_auc_stream": {
+    "iqm": 0.22259845832983652,
+    "ci95": [
+     0.1873700072367986,
+     0.2614173906544844
+    ],
+    "mean": 0.22524498403072357,
+    "n": 10
+   },
+   "kickstart_effective_updates": [
+    90,
+    90,
+    90,
+    90,
+    90,
+    190,
+    90,
+    190,
+    90,
+    90
+   ]
+  }
+ },
+ "report_only_context_lr2_5e_4": {
+  "scratch_1M": {
+   "iqm": 0.21949327737092972,
+   "ci95": [
+    0.15173686544100443,
+    0.2798846565186977
+   ],
+   "mean": 0.21704148799180983,
+   "n": 10
+  },
+  "pretrained_1M": {
+   "iqm": 0.2567376767595609,
+   "ci95": [
+    0.204143817226092,
+    0.3010735760132472
+   ],
+   "mean": 0.2562403827905655,
+   "n": 10
+  }
+ },
+ "problems": []
+}

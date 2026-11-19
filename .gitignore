@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+checkpoints/
+
+# local data for reproduction (bundles are not in git)
+data/
