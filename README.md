@@ -3,7 +3,7 @@
 This repository holds the code, results and figures for my pre-registered study of whether a pretrained start helps or hinders an agent that keeps learning over a long stream of tasks.
 
 - **Paper:** [Portable Document Format (PDF) version](paper.pdf)
-- **Blog post:** Forthcoming (held until public release)
+- **Blog post:** Forthcoming
 
 ## Summary
 
