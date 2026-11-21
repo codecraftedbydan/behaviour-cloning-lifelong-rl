@@ -22,7 +22,7 @@ d = f"{C}/kickstart_1M/kickstart_1M"; man = json.load(open(f"{d}/manifest.json")
 for c in man["chunks"]:
     p = os.path.join(d, os.path.basename(c.get("path", c.get("file"))))
     assert hashlib.sha256(open(p, "rb").read()).hexdigest() == c["sha256"]
-    eff += np.asarray(np.load(p, allow_pickle=True)["kickstart_effective_updates"]).ravel().tolist()
+    eff += np.asarray(np.load(p, allow_pickle=False)["kickstart_effective_updates"]).ravel().tolist()
 assert len(eff) == 25
 out = dict(kickstart_effective_updates=dict(zip(map(str, range(700, 725)), eff)), min=min(eff), max=max(eff),
            lora_left_panel_n=23, lora_left_panel_missing=[s for s, v in zip(seeds, lo["bwt_revisit_late"]["per_seed"]) if v != v])

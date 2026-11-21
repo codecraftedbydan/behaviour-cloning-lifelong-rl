@@ -48,7 +48,7 @@ for cell in CELLS:
         for c in man["chunks"]:
             p = os.path.join(d, os.path.basename(c["path"]) if "path" in c else c["file"])
             if sha(p) != c["sha256"]: problems.append(f"{d}: chunk sha mismatch {p}")
-            z = dict(np.load(p, allow_pickle=True))
+            z = dict(np.load(p, allow_pickle=False))
             r = sm.analyze(z, require_device_info=True)
             is_new = np.asarray(z["is_new"]).astype(bool); tn = np.cumsum(is_new, 1)
             lm = is_new & (tn > int(is_new[0].sum()) // 2)

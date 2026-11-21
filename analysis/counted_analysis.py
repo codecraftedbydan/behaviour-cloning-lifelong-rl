@@ -19,7 +19,7 @@ def forget_grid(cell):
     import glob
     d = os.path.join(H.X, H.CELLS[cell]); man = json.load(open(f"{d}/manifest.json")); rows = []
     for c in man["chunks"]:
-        z = dict(np.load(os.path.join(d, os.path.basename(c.get("path", c.get("file")))), allow_pickle=True))
+        z = dict(np.load(os.path.join(d, os.path.basename(c.get("path", c.get("file")))), allow_pickle=False))
         r = sm.analyze(z, require_device_info=True)
         rows += [[x[2] for x in f] for f in r["forgetting"]]
     g = np.array(rows, float); assert g.shape == (25, 13), g.shape; return g

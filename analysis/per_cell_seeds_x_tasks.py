@@ -20,7 +20,7 @@ for c, rel in CELLS.items():
     for ch in man["chunks"]:
         p = os.path.join(d, os.path.basename(ch.get("path", ch.get("file"))))
         assert hashlib.sha256(open(p, "rb").read()).hexdigest() == ch["sha256"]
-        z = dict(np.load(p, allow_pickle=True)); r = sm.analyze(z, require_device_info=True)
+        z = dict(np.load(p, allow_pickle=False)); r = sm.analyze(z, require_device_info=True)
         acc["s"].append(r["auc_stream"]); acc["f"].append(r["auc_fresh"])
         acc["sched"].append(np.asarray(z["task_of_block"]) - 1); acc["isn"].append(np.asarray(z["is_new"]).astype(bool))
     D[c] = {k: np.concatenate(v) for k, v in acc.items()}

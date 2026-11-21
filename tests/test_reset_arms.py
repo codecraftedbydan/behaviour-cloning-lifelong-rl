@@ -217,6 +217,6 @@ def test_cli_records_reset_arm(tmp_path, monkeypatch):
                                       "--block-updates", "1", "--hidden-size", "16", "--no-fresh",
                                       "--reset-arm", "heads", "--out", str(out)])
     lifelong.main()
-    d = np.load(out, allow_pickle=True)
+    d = np.load(out, allow_pickle=False)
     assert str(d["reset_arm"]) == "heads"
     assert json.loads(str(d["config"]))["hidden_size"] == 16

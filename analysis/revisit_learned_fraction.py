@@ -21,7 +21,7 @@ for cell, rel in CELLS.items():
     for c in man["chunks"]:
         p = os.path.join(d, os.path.basename(c.get("path", c.get("file"))))
         if hashlib.sha256(open(p, "rb").read()).hexdigest() != c["sha256"]: problems.append(f"{cell}: sha {p}")
-        z = dict(np.load(p, allow_pickle=True)); r = sm.analyze(z, require_device_info=True)
+        z = dict(np.load(p, allow_pickle=False)); r = sm.analyze(z, require_device_info=True)
         sched = np.asarray(z["task_of_block"]) - 1; opt = np.asarray(z["optimal_return"])
         ev = z["stream/eval"] / opt[:, None, :]
         for s, rows in enumerate(r["forgetting"]):

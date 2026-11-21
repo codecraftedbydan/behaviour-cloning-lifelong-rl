@@ -31,7 +31,7 @@ def load(cell):
     for c in man["chunks"]:
         p = os.path.join(d, os.path.basename(c.get("path", c.get("file"))))
         if sha(p) != c["sha256"]: problems.append(f"{cell}: chunk sha {p}")
-        z = dict(np.load(p, allow_pickle=True)); r = sm.analyze(z, require_device_info=True)
+        z = dict(np.load(p, allow_pickle=False)); r = sm.analyze(z, require_device_info=True)
         acc["auc_stream"].append(r["auc_stream"]); acc["auc_fresh"].append(r["auc_fresh"])
         acc["sched"].append(np.asarray(z["task_of_block"]) - 1); acc["is_new"].append(np.asarray(z["is_new"]).astype(bool))
         acc["opt"].append(np.asarray(z["optimal_return"])); acc["seeds"].append(np.asarray(z["seeds"]))
