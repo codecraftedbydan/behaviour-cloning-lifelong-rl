@@ -55,7 +55,7 @@ bash analysis/extract_bundles.sh <asset dir>   # checks every SHA-256 hash, unpa
 bash analysis/reproduce_paper_results.sh       # recomputes everything, compares with paper_results/
 ```
 
-Every line should print `MATCH`: the outputs are compared byte for byte with the files in `paper_results/`. The released bundles differ from the originals only in that the training machine's absolute run directory is replaced by a placeholder in a few metadata files. No chunk of run data was changed, and `paper_results/SCRUB_MANIFEST.json` records every changed file with its old and new hash.
+Every line should print `MATCH`: the outputs are compared byte for byte with the files in `paper_results/`. The released bundles differ from the originals only in that I replaced the training machine's absolute run directory with a placeholder in the JSON metadata and log files. I did not change any chunk of run data, so the `.npz` arrays still hold the original path in their `bc_dir` field. `paper_results/SCRUB_MANIFEST.json` records every changed file with its old and new hash.
 
 **Rerun the training (GPU).** The ten cells ran through `runner/counted_queue.sh`, which calls `runner/lr_cell_freshlr.py` on stream seeds 700–724, with fresh-agent seeds 800–824, in seed batches of five, at the learning rates in the results table below. In outline:
 

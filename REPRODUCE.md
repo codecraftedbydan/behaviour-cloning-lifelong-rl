@@ -46,10 +46,10 @@ Every line should print `MATCH`. The outputs are compared byte for byte with the
 
 ### About the released run data
 
-The released bundles differ from the originals in one way: the absolute run directory on the training machine
-is replaced by the placeholder `<BASE>` in `runner_identity.json`, the queue log snapshots, and the
-`sha256sums.txt` files that list them. No chunk file (`*.npz`) was touched, so every chunk keeps its original
-SHA-256. `paper_results/SCRUB_MANIFEST.json` and `paper_results/SCRUB_MANIFEST_lr_sweeps.json` record, for
+The released bundles differ from the originals in one way: I replaced the absolute run directory on the training
+machine with the placeholder `<BASE>` in the JSON and log files (`runner_identity.json`, the queue log snapshots,
+and the `sha256sums.txt` files that list them). I did not touch any chunk file (`*.npz`), so every chunk keeps its
+original SHA-256, and the `.npz` arrays still hold the original run-directory path in their `bc_dir` field. `paper_results/SCRUB_MANIFEST.json` and `paper_results/SCRUB_MANIFEST_lr_sweeps.json` record, for
 every changed file, its old and new SHA-256, and for JSON files a parsed comparison showing that only path
 strings changed. `tools/scrub_release.py` is the script that made them.
 
